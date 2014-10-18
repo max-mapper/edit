@@ -1,0 +1,29 @@
+{
+  "name": "edit",
+  "version": "1.0.0",
+  "description": "wraps codemirror into an API that you can require() and insert into a page as a standlone editor, easily",
+  "main": "index.js",
+  "scripts": {
+    "start": "beefy demo.js -- -t brfs"
+  },
+  "author": "max ogden",
+  "dependencies": {
+    "brfs": "^1.2.0",
+    "codemirror": "^4.6.0",
+    "extend": "^2.0.0",
+    "insert-css": "^0.2.0"
+  },
+  "license": "BSD",
+  "devDependencies": {
+    "beefy": "^2.1.1",
+    "browserify": "^6.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maxogden/edit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/edit/issues"
+  },
+  "homepage": "https://github.com/maxogden/edit"
+}

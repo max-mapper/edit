@@ -1,0 +1,3 @@
+var workshop = require('./')
+
+workshop()
