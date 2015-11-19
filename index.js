@@ -6,7 +6,7 @@ var insertCSS = require('insert-css')
 module.exports = function(opts) {
   if (!opts) opts = {}
   
-  var cmStyle = fs.readFileSync(__dirname + '/node_modules/codemirror/lib/codemirror.css')
+  var cmStyle = fs.readFileSync(require.resolve('codemirror/lib/codemirror.css'))
   insertCSS(cmStyle)
     
   var defaults = {
