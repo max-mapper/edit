@@ -1,6 +1,6 @@
 {
   "name": "edit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "wraps codemirror into an API that you can require() and insert into a page as a standlone editor, easily",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,11 @@
     "extend": "^2.0.0",
     "insert-css": "^0.2.0"
   },
-  "browserify": { "transform": [ "brfs" ] },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
   "license": "BSD",
   "devDependencies": {
     "beefy": "^2.1.1",
